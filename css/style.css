@@ -1,0 +1,105 @@
+body {
+  background-image: url(../img/background.jfif);
+  margin: 0px
+}
+
+
+/* inizio wrapper */
+.wrapper {
+  width: 50%;
+  height: 100%;
+  margin: 0px auto;
+  font-family: 'Times New Roman', arial;
+}
+/* fine wrapper */
+
+
+
+/* inizio header */
+.header {
+  color: #fff;
+}
+
+/* inizio header-top */
+.header-top img.logo {
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+}
+
+.header-top h2.logo-text {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 25px;
+}
+/* fine header-top */
+
+hr.header-rule {
+margin-top: 0px;
+}
+
+/* inizio header bottom */
+.header-bottom p {
+  font-size: 25px;
+  margin: 7px 0px 0px;
+}
+
+.header-bottom .number {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 50px;
+  background-color: orange;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+/* fine header bottom */
+
+/* fine header */
+
+
+
+/* inizio main-page */
+.mail {
+  border: 1px solid #000;
+  background-color: #d3d3d3;
+  padding: 2px;
+}
+.mail:hover {
+  cursor: pointer;
+}
+
+.subject {
+  font-weight: bold;
+} /* Non serve mettere ogetto tra il tag <strong></strong> in quanto il contenuto della casella di posta non viene indicizzato */
+
+.divider, .mail-content {
+  color: #808080;
+}
+
+.read {
+  background-color: #fff;
+}
+/* fine main-page */
+
+
+
+/* inizio footer */
+.footer p {
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  font-weight: 700;
+  margin: 7px 0px;
+}
+
+.footer .company {
+  font-size: 25px;
+  font-style:  normal;
+  margin:0px 2px 0px 0px;
+}
+/* fine footer */
