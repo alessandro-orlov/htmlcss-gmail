@@ -34,7 +34,7 @@ color: #61ce4e; /*Company Green*/
 
 
 .registration form {
-  margin-top: 60px
+  margin-top: 50px
 }
 
 .registration fieldset {
@@ -55,11 +55,12 @@ float: left;
 
 .registration input[type="text"], input[type="number"], input[type="password"] {
   width: 45%;
-  margin: 0 1% 6% 1%;
+  margin: 15px 1%;
   outline: none;
   font-size: 15px;
   padding: 5px;
-  color: 565656;
+  color: #565656;
+  line-height: 25px;
   border: none;
   border-bottom: 1px solid #ccc;
   transition: 0.2s;
@@ -77,21 +78,21 @@ float: left;
   display: block;
   width: 95%;
   margin: 15px auto;
-  padding: 10px;
-  font: 26px Arial;
+  padding: 15px 10px;
+  font: 20px Arial;
+  text-transform: uppercase;
   color: #fff;
   background: linear-gradient( #68ff4d, #61ce4e);
   border-radius: 5px;
   border: none;
   outline: none;
   cursor: pointer;
-  transition: all 0.7s;
+  transition: 0.5s;
   }
 
 .registration  input[type="submit"]:hover {
-    background: linear-gradient( #61ce4e, #68ff4d);
-    -webkit-transition: all 0.7s; /*SAFARI*/
-    transition: all 0.7s;
+  background: linear-gradient( #61ce4e, #68ff4d);
+  transition: 0.5s;
 }
 
 .registration hr {
