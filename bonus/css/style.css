@@ -2,7 +2,7 @@
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  padding: 30px 100px;
+  padding: 10px 100px 30px;
   margin: 0 auto;
   color: #565656;
   font: 16px "Segoe UI", Arial;
@@ -34,7 +34,7 @@ color: #61ce4e; /*Company Green*/
 
 
 .registration form {
-  margin-top: 50px
+  margin-top: 60px
 }
 
 .registration fieldset {
@@ -55,12 +55,11 @@ float: left;
 
 .registration input[type="text"], input[type="number"], input[type="password"] {
   width: 45%;
-  margin: 15px 1%;
+  margin: 0 1% 6% 1%;
   outline: none;
   font-size: 15px;
   padding: 5px;
-  color: #565656;
-  line-height: 25px;
+  color: 565656;
   border: none;
   border-bottom: 1px solid #ccc;
   transition: 0.2s;
@@ -78,21 +77,21 @@ float: left;
   display: block;
   width: 95%;
   margin: 15px auto;
-  padding: 15px 10px;
-  font: 20px Arial;
-  text-transform: uppercase;
+  padding: 10px;
+  font: 26px Arial;
   color: #fff;
   background: linear-gradient( #68ff4d, #61ce4e);
   border-radius: 5px;
   border: none;
   outline: none;
   cursor: pointer;
-  transition: 0.5s;
+  transition: all 0.7s;
   }
 
 .registration  input[type="submit"]:hover {
-  background: linear-gradient( #61ce4e, #68ff4d);
-  transition: 0.5s;
+    background: linear-gradient( #61ce4e, #68ff4d);
+    -webkit-transition: all 0.7s; /*SAFARI*/
+    transition: all 0.7s;
 }
 
 .registration hr {
@@ -104,10 +103,91 @@ float: left;
 .registration h6 {
   text-align: center;
   font-weight: 300;
-  margin-top: 5px;
+  margin-top: 15px;
   color: #c5c5c5;
   }
 
 .clear {
   clear: both;
 }
+
+
+/* -- FOLLOW US -- */
+.footer {
+  text-align: center;
+  margin: 0px auto;
+
+}
+
+.footer .folow-us {
+  margin: 25px auto;
+  padding: 0;
+  width: auto;
+}
+
+.footer .follow-us h5 {
+  color: #565656;
+  text-align: center;
+  font-size: 14px;
+  margin: 10px auto;
+}
+
+.footer .follow-us .fb {
+  display: inline-block;
+  margin: 0px 10px;
+  width: 30px;
+  height: 30px;
+  background: url("../img/facebook.png") no-repeat center;
+  background-size: 28px;
+  transition: 0.3s;
+	}
+
+.footer .follow-us .fb:hover {
+  display: inline-block;
+  margin: 0px 10px;
+  width: 30px;
+  height: 30px;
+  background: url('../img/facebook-hover.png') no-repeat center;
+  background-size: 28px;
+}
+
+
+.footer .follow-us .tw {
+  display: inline-block;
+  margin: 0px 10px;
+  width: 30px;
+  height: 30px;
+  background: url("../img/twitter.png") no-repeat center;
+  background-size: 30px;
+  transition: 0.3s;
+}
+
+.footer .follow-us .tw:hover {
+  display: inline-block;
+  margin: 0px 10px;
+  width: 30px;
+  height: 30px;
+  background: url("../img/twitter-hover.png") no-repeat center;
+  background-size: 30px;
+}
+
+.footer .follow-us .inst {
+  display: inline-block;
+  margin: 0px 10px;
+  width: 30px;
+  height: 30px;
+  background: url("../img/instagram.png") no-repeat center;
+  background-size: 28px;
+  transition: 0.3s;
+}
+
+.footer .follow-us .inst:hover {
+  display: inline-block;
+  margin: 0px 10px;
+  width: 30px;
+  height: 30px;
+  background: url('../img/instagram-hover.png') no-repeat center;
+  background-size: 28px;
+}
+
+/* -- END FOLLOW US -- */
