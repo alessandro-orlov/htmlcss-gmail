@@ -16,16 +16,24 @@
 
         <!-- inzio form -->
           <form name="registrazione-utente" action="#" method="post">
+
+            <!-- inizio campo dati generali -->
             <fieldset>
             <legend>Dati Generali</legend>
               <input type="text" name="Nome" placeholder="Nome">
               <input type="text" name="Cognome" placeholder="Cognome">
               <input type="text" name="Città" placeholder="Città di residenza">
               <input type="number" nome="Telefono" placeholder="Telefono">
+            </fieldset>
+            <!-- fine campo dati generali -->
+
+            <!-- inzio campo età -->
+            <fieldset>
             <legend>La tua et&agrave;</legend>
               <input type="radio" id="age18-" name="age" value="-18"><label for="age18-">meno di 18 anni</label>
               <input type="radio" id="age18+" name="age" value="+18"><label for="age18+">pi&ugrave; di 18 anni</label>
             </fieldset>
+            <!-- fine campo età -->
 
             <!-- Inizio campo dei checkbox -->
             <fieldset>
@@ -64,38 +72,54 @@
             </fieldset>
             <!-- fine campo dei checkbox -->
 
-            <br class="clear">
+            <!-- inizio campo textarea -->
+            <fieldset>
+              <legend>Bio</legend>
+              <textarea name="registrazione-utente" placeholder="Racconta un pò di te"></textarea>
+            </fieldset>
+            <!-- fine campo textarea -->
 
+            <!-- Inizio pulsante personalizzato "selezione file" -->
+            <fieldset>
+              <legend>Aggiungi la foto del profilo</legend>
+              <label class="custom-file-upload">
+                <input type="file" name="user-avatar">
+              </label>
+              <i>Scegli file</i>
+            </fieldset>
+            <!-- fine pulsante personalizzato "seleziona file" -->
+
+            <!-- inizio campo crea account -->
             <fieldset>
               <legend>Crea Account</legend>
               <input type="text" name="email" placeholder="Email">
               <input type="password" name="password" placeholder="Password">
             </fieldset>
+            <!-- fine campo crea account -->
 
             <input type="submit" value="registrati">
 
           </form>
         <!-- fine form -->
 
-
               <hr>
 
         <!-- Inizio footer -->
         <div class="footer">
 
+            <!-- inizio parte follow us -->
             <div class="follow-us">
               <h5>Follow us</h5>
               <a href="https://www.facebook.com/" title="facebook" target="_blank"><span class="fb"></span></a>
               <a href="https://twitter.com/" title="twitter" target="_blank"><span class="tw"></span></a>
               <a href="https://www.instagram.com/" title="instagram" target="_blank"> <span class="inst"></span> </a>
             </div>
-
+            <!-- fine parte follow us -->
 
             <h6>&copy; BooleanBook all rights reserved</h6>
 
         </div>
         <!-- Fine footer -->
-
 
       </div>
       <!-- fine registrazione -->
