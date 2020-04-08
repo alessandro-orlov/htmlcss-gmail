@@ -66,6 +66,14 @@ color: #61ce4e; /*Company Green*/
   transition: 0.3s;
 }
 
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button  {
+  -webkit-appearance: none;
+  -moz-webkit-appearance: none; /* for mozilla firefox*/ 
+  margin: 0;
+} /* ELIMINATE ARROWS FROM NUMBER INPUT */
+
 .registration input:focus {
   border-bottom: 1px solid #61ce4e;
 }
